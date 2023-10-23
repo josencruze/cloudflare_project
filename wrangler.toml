@@ -1,0 +1,10 @@
+name = "jose-worker"
+type = "javascript"
+account_id = "4fa86a9398aee41c4656b6256b20b6db"
+workers_dev = true
+main = "/Users/priscilla/Documents/Jose/Techstuff/AWS/CloudFlare_Project/cloudflare-worker/jose-worker/index.js"
+compatibility_date = "2023-10-21"
+node_compat = true
+
+[build]
+command = "npm install && npm run build"
